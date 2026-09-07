@@ -98,6 +98,14 @@ namespace c__Basics04
                 Console.WriteLine(books[0]);
             }
             #endregion
+            #region (String Questions) Question 01
+
+            // 1 - Declare string title = "clean code";. Call title.ToUpper() and store it in a new variable upperTitle.Print both title and upperTitle to show that title did not change.
+            string title2 = "clean code";
+            string uppertitle = title2.ToUpper();
+            Console.WriteLine($"title: {title2}");
+            Console.WriteLine($"upperTitle: {uppertitle}");
+            #endregion
 
 
         }
