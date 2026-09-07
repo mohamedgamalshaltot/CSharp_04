@@ -1,4 +1,5 @@
 ﻿using System.Drawing;
+using System.Text;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace c__Basics04
@@ -111,6 +112,12 @@ namespace c__Basics04
             string title3 = "Clean Code";
             string title4= "Clean Code";
             Console.WriteLine(object.ReferenceEquals(title3, title4));
+            #endregion
+            #region (String Questions) Question 03
+            //3-Create a StringBuilder, Append() the text "Book List", then Append() " - Updated" onto the same object. Print the final result. 
+            StringBuilder sb = new StringBuilder("Book List");
+            sb.Append(" - Updated");
+            Console.WriteLine(sb.ToString());   
             #endregion
 
 
