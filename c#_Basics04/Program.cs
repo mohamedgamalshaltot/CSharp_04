@@ -106,6 +106,12 @@ namespace c__Basics04
             Console.WriteLine($"title: {title2}");
             Console.WriteLine($"upperTitle: {uppertitle}");
             #endregion
+            #region  (String Questions) Question 02
+            //2 - Declare two separate string variables, both set to the literal "Clean Code".Use ReferenceEquals() to check if they point to the same object in memory.
+            string title3 = "Clean Code";
+            string title4= "Clean Code";
+            Console.WriteLine(object.ReferenceEquals(title3, title4));
+            #endregion
 
 
         }
