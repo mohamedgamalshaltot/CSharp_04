@@ -117,7 +117,15 @@ namespace c__Basics04
             //3-Create a StringBuilder, Append() the text "Book List", then Append() " - Updated" onto the same object. Print the final result. 
             StringBuilder sb = new StringBuilder("Book List");
             sb.Append(" - Updated");
-            Console.WriteLine(sb.ToString());   
+            Console.WriteLine(sb.ToString());
+            #endregion
+            #region (String Questions) Question 04
+            //4-Using the StringBuilder from the question above, use Replace() to change "Book List" into "Library". Print the result.
+            StringBuilder sb1 = new StringBuilder("Book List");
+         
+            sb.Replace("Book List", "Library");
+            Console.WriteLine(sb.ToString());
+
             #endregion
 
 
